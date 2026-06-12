@@ -53,3 +53,27 @@ CREATE TABLE employee_demographics (
     PRIMARY KEY (employee_id)
 );
 ```
+# 4.Insert Data
+Syntax:
+
+```sql
+INSERT INTO table_name
+VALUES (...);
+```
+
+Example:
+
+```sql
+INSERT INTO employee_demographics
+VALUES
+(1,'Leslie','Knope',44,'Female','1979-09-25');
+```
+
+### Multiple Rows
+
+```sql
+INSERT INTO employee_demographics
+VALUES
+(1,'Leslie','Knope',44,'Female','1979-09-25'),
+(2,'Ron','Swanson',55,'Male','1970-05-06');
+```
