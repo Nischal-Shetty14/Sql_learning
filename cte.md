@@ -38,4 +38,4 @@ SELECT AVG(avg_sal)
 FROM SalaryStats;
 
 65000
-```
+````
