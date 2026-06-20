@@ -1,4 +1,4 @@
-CTE or common table expression is a temporary named result table that exists for only one query
+.CTE or common table expression is a temporary named result table that exists for only one query
 Why use a CTE?
 Without a CTE, you might have to write a long query again and again.
 A CTE lets you:
