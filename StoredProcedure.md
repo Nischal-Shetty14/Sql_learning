@@ -44,7 +44,7 @@ END;
 
 EXEC GetEmployees 'IT',70000;
 ```
-- Variables inside procedure
+- Variables inside procedure.
  ```
  DECLARE @AvgSalary INT;
 
